@@ -1,0 +1,5 @@
+dockerx build -f Dockerfile -t articlemicroservice .
+
+dockerx run -p 8080:6128 articlemicroservice
+
+dockerx images
